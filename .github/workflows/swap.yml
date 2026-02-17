@@ -22,6 +22,6 @@ jobs:
         run: |
           az webapp deployment slot swap \
             --resource-group cloudboosta-bluegreen-rg \
-            --name cloudboosta-bluegreen-webapp \
+            --name cloudboosta-bluegreen-webapp-1234 \
             --slot staging \
             --target-slot production
